@@ -30,5 +30,5 @@ function projectClick(e) { 
        $(containingProject).append("<div class='project-description'><p>Description of the project.</p></div>");
     } else {
         description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
-    }
+    } 
 }
